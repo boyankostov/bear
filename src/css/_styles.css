@@ -1,0 +1,124 @@
+/*
+
+  STYLES
+
+*/
+
+@import url("//hello.myfonts.net/count/339823");
+
+@font-face {font-family: 'NeusaNextPro-Medium';src: url('../fonts/339823_0_0.eot');src: url('../fonts/339823_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/339823_0_0.woff2') format('woff2'),url('../fonts/339823_0_0.woff') format('woff'),url('../fonts/339823_0_0.ttf') format('truetype');}
+
+/* Base Styles */
+html {
+  font-family: var(--body-font); /* 1 */
+  line-height: 1.415; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: "NeusaNextPro-Medium";
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: var(--black-85);
+}
+
+body {
+	margin: 0;
+	color: var(--black-85);
+	font-size: var(--f4);
+	font-weight: var(--fw4);
+	-webkit-font-smoothing: antialiased;
+}
+
+.pvbtn {
+    padding-top: 0.6em;
+    padding-bottom: 0.4em;
+}
+
+
+/* Preloader */
+.preloader {
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+	&.is-hidden {
+		display: none;
+	}
+}
+.dots {
+    height: 80%;
+    width: 90%;
+    position: absolute;
+    z-index: 4;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 0;
+}
+.dot {
+    width: 2.5em;
+    height: 2.5em;
+    background: green;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: -10px;
+    border-radius: 2.5em;
+    display: inline-block;
+    transition: all 2.5s cubic-bezier(0.15, .75, 0.05, 1);
+    transform: scale(0.4);
+    transform-origin: 0 100%;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    mix-blend-mode: color-burn;
+    animation: jumparound 1s ease-in-out infinite;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    &:nth-child(1) {
+        background: var(--purple);
+        animation-delay: 0.5s;
+    }
+    &:nth-child(2) {
+        background: var(--light-red);
+        animation-delay: 0.4s;
+    }
+    &:nth-child(3) {
+        background: var(--blue);
+        animation-delay: 0.3s;
+    }
+    &:nth-child(4) {
+        background: var(--green);
+        animation-delay: 0.2s;
+    }
+    &:nth-child(5) {
+        background: rgba(0,0,0,0.1);
+        animation-delay: 0.1s;
+    }
+
+    &.is-dispersed {
+	    animation: none;
+	}
+}
+@keyframes jumparound {
+    50% {
+        top: -25px;
+    }
+    100% {
+        top: 0;
+    }
+}

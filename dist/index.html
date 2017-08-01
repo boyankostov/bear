@@ -1,0 +1,147 @@
+<!--
+	[] optimize SVGs into sprite
+	[] clean CSS and decide what parts of atomic to use
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bear - UX, interaction &amp; visual design</title>
+	<link rel="stylesheet" href="css/include.css" media="screen">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<!-- Hotjar Tracking Code for http://tardigradestudio.com/ -->
+	<script>
+	    (function(h,o,t,j,a,r){
+	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+	        h._hjSettings={hjid:473285,hjsv:5};
+	        a=o.getElementsByTagName('head')[0];
+	        r=o.createElement('script');r.async=1;
+	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+	        a.appendChild(r);
+	    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+</head>
+<body id="top">
+
+	<div class="dots" id="dots">
+	    <div class="dot"></div>
+	    <div class="dot"></div>
+	    <div class="dot"></div>
+	    <div class="dot"></div>
+	    <div class="dot"></div>
+	</div>
+
+	<div class="preloader"></div>
+
+	<header class="absolute w-100 pv3 ph4">
+		<a href="#top" class="fixed-ns z-999 is-scrolling">
+			<svg width="38px" height="47px" viewBox="0 0 38 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+			    <title>Imported Layers</title>
+			    <desc>Created with Sketch.</desc>
+			    <defs></defs>
+			    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			        <g id="top" transform="translate(-71.000000, -34.000000)" fill="#262626">
+			            <g id="Imported-Layers" transform="translate(71.000000, 34.000000)">
+			                <path d="M25.9162422,9 C25.9162422,9 27.0693323,11.2271194 27.0693323,12.4797874 C27.0693323,13.7327328 27.0014875,14.7071843 26.390885,15.8206053 C25.7805527,16.9340263 24.5598882,18.9525527 24.356354,19.5095406 C24.1528198,20.0662511 23.6103323,22.2933705 23.5424875,23.0589515 C23.4746428,23.8245325 23.1354192,26.6779859 23.1354192,26.6779859 L23,28 C23,28 24.2885093,25.355417 25.1702204,24.102749 C25.831639,23.163248 26.0730149,22.1455246 26.1811339,21.4309824 C26.2387074,21.0509657 26.4246722,20.70479 26.7125393,20.4581952 C27.0350045,20.1819204 27.4293688,19.8141086 27.5437048,19.5788867 C27.6550674,19.3505993 27.7258855,18.7683694 27.7669707,18.2876622 C27.8067045,17.824985 28.0267268,17.4003095 28.3727079,17.100457 C28.8159962,16.7168343 29.4179492,16.1518023 29.7687957,15.6391959 C29.9801685,15.3301896 30.0444994,14.9418515 29.9704378,14.572098 C29.7544699,13.4975108 29.2254972,11.4867512 25.9162422,9" id="Fill-1"></path>
+			                <path d="M37.7979156,32.3253666 C37.6052473,31.9951289 37.4456001,31.7252806 37.3148804,31.5065729 C36.9994065,30.9791174 36.9502843,30.3395878 37.1759736,29.7686084 C37.3929301,29.2185748 37.6257149,28.4892772 37.6609192,27.820913 C37.7245052,26.6163885 38.2817695,23.4701532 36.7338736,20.2398623 C36.4926289,19.736345 36.4020257,19.1748864 36.503272,18.625941 C36.6923926,17.5998646 36.9764828,15.9448676 36.9764828,15.2618141 C36.9764828,14.2381859 36.5654935,10.3476916 32.9361797,8.36816934 C29.3071388,6.38891911 27.1845128,5.70640966 25.7465961,4 C25.7465961,4 27.3900075,6.38891911 27.9377203,7.00315042 C28.4854331,7.61738173 30.4028374,9.73318825 30.882052,10.3476916 C31.3612666,10.9619229 33.5526637,13.4191202 33.620889,15.1935359 C33.6443585,15.8009666 33.6607326,16.2984994 33.6721944,16.6902147 C33.6918433,17.3523223 33.3288846,17.9654655 32.7375076,18.2674127 C31.8893305,18.7007478 30.7368685,19.3620393 30.4028374,19.903368 C29.9473652,20.6408264 29.3024995,21.8502474 29.019228,22.590154 C28.9157984,22.8605463 28.7506931,23.1023761 28.546563,23.3085707 C27.910976,23.9505485 26.609237,25.4382504 26.3628072,27.0698534 C26.034234,29.2455053 26.2258107,31.7111353 25.7465961,32.4621949 C25.2671086,33.2127105 24.9931158,33.895492 23.7606937,34.9191202 C22.5282716,35.9430204 20.8848602,37.3763174 19.8576599,38.6730582 C18.8304596,39.970071 16.9130554,41.9493212 14.379713,42.2224338 C11.8460977,42.4955464 9.65497355,42.4955464 8.69654433,42.0175994 C8.69654433,42.0175994 10.2711846,41.1302554 11.1613885,40.3111897 C12.0515924,39.4921239 13.4210109,38.6730582 13.6950037,38.6730582 C13.9687237,38.6730582 11.7778724,38.6050521 10.5451774,39.2192834 C9.31248247,39.8337867 7.73756932,40.5160241 5.61521625,39.6969584 C3.49231738,38.8778926 0,36.9669206 0,36.9669206 C0,36.9669206 2.73910991,42.0858775 5.54644513,43.7922872 C8.35405326,45.4986968 10.8873956,47 14.5167094,47 C18.1457503,47 20.7478638,46.6588813 21.8432895,46.3860407 C22.8309191,46.1398585 24.7638787,45.7829624 26.7901705,44.8654238 C27.1815109,44.6883358 27.4830668,44.3627225 27.6435328,43.9652947 C27.9500009,43.2055303 28.720674,41.836431 30.5398338,40.7205866 C33.2101726,39.0827271 35.1275768,38.6050521 36.0175078,37.3763174 C36.9079846,36.1478548 38.5784132,33.6634551 37.7979156,32.3253666 L37.7979156,32.3253666 Z M33.347169,30.619229 C32.6720113,32.4135025 32.2525621,33.4888154 31.9922143,34.1310652 C31.8399354,34.506731 32.015138,34.9074231 32.3600852,35.1212344 C32.5257362,35.2240596 32.6097898,35.4256298 32.4569651,35.8064641 C32.0459758,36.8303643 31.3612666,38.127105 28.0062185,39.6289523 C25.5773973,40.7156901 23.7585105,41.158818 22.6276077,41.3465149 C22.300672,41.4009198 22.1019998,40.9991396 22.3435175,40.7730873 C22.6881917,40.4507383 23.1092784,40.0845933 23.4867008,39.8337867 C24.3084065,39.2875615 25.061614,38.9461708 25.4726033,38.1953832 C25.8833196,37.4445956 27.0475164,33.9634981 27.9377203,32.8715918 C28.8276513,31.7794134 30.094186,31.4382947 30.1973427,29.1859319 C30.3004994,26.9332971 31.498263,23.9304187 32.5254633,23.0430748 C32.8289295,22.7808431 33.0969186,22.5977707 33.3239724,22.4699192 C33.7379636,22.2367942 34.2608424,22.4933133 34.3296135,22.9620115 C34.521736,24.2663689 34.6767439,27.0848147 33.347169,30.619229 L33.347169,30.619229 Z" id="Fill-2"></path>
+			                <path d="M23.5196603,8.78195377 C22.9691154,7.47825006 22.7626611,6.79221974 22.3500266,5.35152871 C21.9373921,3.91083768 22.4876628,1.7838429 22.7626611,0 C21.6621197,1.05215014 21.1729902,2.56119811 20.9692776,3.45065871 C20.8596073,3.92943077 20.5316931,4.32808849 20.0872543,4.53999503 C19.2781617,4.92580164 17.9807621,5.55249814 17.0526773,6.03728561 C16.0544034,6.5587124 14.694766,7.86651752 13.9498305,8.62500621 C13.6156103,8.96515039 13.3938021,9.39634601 13.3153879,9.86609495 C13.0686297,11.340691 12.4213008,14.1662938 12.3058728,14.3388267 C12.1682366,14.5447179 9.23291119,17.2204822 8.6826405,17.7692518 C7.57826065,18.5799652 7.24349208,19.1552573 7.08090587,19.5295799 C6.9517691,19.8270694 6.97699327,20.1688541 7.15822343,20.437907 C7.44144696,20.8587124 7.84750122,21.3459607 7.84750122,21.3459607 C8.56995427,22.1558538 8.45726805,21.8717624 8.93872063,22.6950534 C9.42017322,23.5183445 9.75576432,23.902784 10.1538675,24.2590604 C10.678914,24.6872483 12.5038277,25.5581158 13.5728389,26.0513796 C14.0740321,26.2826995 14.6374632,26.3330102 15.1732026,26.1982103 C15.4706833,26.1232911 15.8474007,26.0327865 16.2959522,25.9335322 C17.534404,25.6590107 17.8782204,25.5217499 19.1166722,26.8254536 C20.355124,28.1286105 20.0110334,33 20.0110334,33 C20.0110334,33 20.5615783,30.3242356 20.8365765,28.952175 C21.111849,27.5801143 21.111849,24.28695 21.0430309,23.6690032 C20.9742128,23.0516033 20.9742128,21.8854338 21.111849,21.0624161 C21.249211,20.239125 22.6941171,18.249391 23.2443878,17.3574696 C23.7949327,16.4658215 24.4140215,15.7111608 24.8954741,13.9959483 C25.3769267,12.2807358 24.069931,10.085384 23.5196603,8.78195377 L23.5196603,8.78195377 Z M8.50003946,21.0539398 C8.1414176,20.6134477 8.2623291,20.3824012 8.33388897,20.1013174 C8.51100649,19.4046234 9.45005837,19.8442953 9.65925446,20.3039274 C9.86707966,20.7643798 9.98607193,22.0905046 9.98607193,22.0905046 C9.77824673,22.1785483 8.85262945,21.4862292 8.50003946,21.0539398 L8.50003946,21.0539398 Z M14.5072298,15.9851355 C13.9569591,15.2304748 14.3695935,14.1329356 14.644866,13.6527964 C14.8178709,13.3506587 15.2617614,13.2298036 15.5674673,13.1816803 C15.7818727,13.1480487 16.0031326,13.2319911 16.1254149,13.4105394 C16.4922621,13.9450907 16.6882977,14.9764604 16.7072158,15.9651752 C16.7091351,16.0685309 16.6866527,16.1729804 16.6359301,16.2632115 C16.0113578,17.3733284 15.0366631,16.7110863 14.5072298,15.9851355 L14.5072298,15.9851355 Z" id="Fill-3"></path>
+			            </g>
+			        </g>
+			    </g>
+			</svg>
+		</a>
+		<div class="w4 tc pt2 absolute left-0 right-0 center">
+			<a href="#top" class="ttu tracked-hyper dn di-ns display-font is-scrolling">Bea<span class="tracked-0">r</span></a>
+		</div>
+		<nav class="nav-main ttu f7 display-font list tr fr">
+			<ul>
+				<li class="dib"><a href="#work" class="black-85 dim pa3 is-scrolling" onclick="ga('send', 'event', 'Work', 'click', event.target.href);">Work</a></li>
+				<!-- <li><a href="#about">Us</a></li> -->
+				<li class="dib"><a href="mailto:boyan@tardigradestudio.com" class="black-85 dim pa3">
+					<svg class="v-top" width="16px" height="16px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+					    <title>envelope</title>
+					    <desc>Created with Sketch.</desc>
+					    <defs></defs>
+					    <g id="14x14" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+					        <g id="envelope" stroke="#262626">
+					            <g id="Group" transform="translate(0.500000, 2.500000)">
+					                <polygon id="Rectangle-2" points="13 0 13 9 0 9 5.5109106e-16 0"></polygon>
+					                <path d="M13,7.80625564e-17 L7.23299748,5.37509985 C6.82817415,5.752413 6.16872782,5.74952549 5.76700252,5.37509985 L0,0" id="Path-4"></path>
+					                <path d="M13,9 L8.5,4.5" id="Path-5"></path>
+					                <path d="M4.5,9 L-8.8817842e-16,4.5" id="Path-5-Copy" transform="translate(2.250000, 6.750000) scale(-1, 1) translate(-2.250000, -6.750000) "></path>
+					            </g>
+					        </g>
+					    </g>
+					</svg>
+				</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="l-home vh-100 " id="top">
+		<div class="flex vh-100 tc items-center justify-center">
+			<h1 class="title f1 f0-nm lh-title">We design products <br>that help people <a href="#work" class="footnote is-scrolling" style="opacity: 0.2">*</a></h1>
+		</div>
+		<div class="absolute left-0 w-100 center bottom-2 bottom-10-ns tc">
+			<a href="#work" class="display-font dib f7 fw5 ls-3 ttu pv2 ph3 bb bw1 b--black-85 center is-scrolling o-50 glow">Take a look</a>
+		</div>
+	</div>
+
+	<div id="work">
+		<section class="w-90 w-75-nl w-60-nxl center pv6 flex-nm items-center-nm justify-center-nm">
+			<div class="info mb4 ph5-nm tc tl-nm pl0 w-50-nm">
+				<h3 class="f2 mv2 lh-title">A new take on delivery</h3>
+				<p>Nift ensures you receive anything anytime. Our simple goal is to make sure you totally forget about delivery.</p>
+				<div class="display-font dib f7 fw5 ls-3 ttu pv2 pvbtn ph4 br-pill bw1 b--solid b--black-85 o-50">Case Study Soon</div>
+			</div>
+			<a class="img h5 h6-ns pv5 w-40-nm bg-purple br3 tc flex items-center justify-center grow shadow-hover" onclick="ga('send', 'event', 'Nift Rectangle', 'click', event.target.href);">
+				<img src="img/logo-nift.svg" alt="Nift - forget about delivery">
+			</a>
+		</section>
+		<section class="w-90 w-75-nl w-60-nxl center pv6 flex-nm items-center-nm justify-center-nm">
+			<div class="info mb4 ph5-nm tc tl-nm w-50-nm order-1-ns">
+				<h3 class="f2 mv2 lh-title">Making servers simpler</h3>
+				<p>With Aspaway managing a server cluster is several clicks away anytime and it looks pretty neat.</p>
+				<a href="https://www.behance.net/gallery/27361665/My-Aspaway" class="display-font dib f7 fw5 ls-3 ttu pv2 pvbtn ph4 br-pill bw1 b--solid b--black-85 dim" onclick="ga('send', 'event', 'Aspaway', 'click', event.target.href);">Read case study</a>
+			</div>
+			<a href="https://www.behance.net/gallery/27361665/My-Aspaway" class="img h5 h6-ns pv5 w-40-nm bg-light-red order-0-ns br3 tc flex items-center justify-center grow shadow-hover" onclick="ga('send', 'event', 'Aspaway Rectangle', 'click', event.target.href);">
+				<img src="img/logo-aspaway.svg" alt="Aspaway - reinventing server management">
+			</a>
+		</section>
+		<section class="w-90 w-75-nl w-60-nxl center pv6 flex-nm items-center-nm justify-center-nm">
+			<div class="info mb4 ph5-nm tc tl-nm w-50-nm">
+	 			<h3 class="f2 mv2 lh-title">Simple online money lending</h3>
+				<p>We redesigned Credissimo with one goal in mind - make the easiest & most frictionless possible way for people to lend money online.</p>
+				<a href="https://www.behance.net/gallery/15677515/Credissimo" class="display-font dib f7 fw5 ls-3 ttu pv2 pvbtn ph4 br-pill bw1 b--solid b--black-85 dim" onclick="ga('send', 'event', 'Credissimo', 'click', event.target.href);">Read case study</a>
+			</div>
+			<a href="https://www.behance.net/gallery/15677515/Credissimo" class="img h5 h6-ns pv5 w-40-nm bg-blue br3 tc flex items-center justify-center grow shadow-hover" onclick="ga('send', 'event', 'Credissimo Rectangle', 'click', event.target.href);">
+				<img src="img/logo-credissimo.svg" alt="Credissimo - simple online lending">
+			</a>
+		</section>		
+		<section class="w-90 w-75-nl w-60-nxl center pv6 flex-nm items-center-nm justify-center-nm" data-color="dark-blue">
+			<div class="info mb4 ph5-nm tc tl-nm w-50-nm order-1-ns">
+				<h3 class="f2 mv2 lh-title">Developer friendly time tracking</h3>
+				<p>Custom tailored product for the specific time tracking needs of developers.</p>
+				<a href="https://www.behance.net/gallery/31957295/Spell-time-tracking-for-developers" class="display-font dib f7 fw5 ls-3 ttu pv2 pvbtn ph4 br-pill bw1 b--solid b--black-85 dim grow" onclick="ga('send', 'event', 'Spell', 'click', event.target.href);">Read case study</a>
+			</div>
+			<a href="https://www.behance.net/gallery/31957295/Spell-time-tracking-for-developers" class="img h5 h6-ns pv5 w-40-nm bg-green order-0-ns br3 tc flex items-center justify-center grow shadow-hover" onclick="ga('send', 'event', 'Spell Rectangle', 'click', event.target.href);">
+				<img src="img/logo-spell.svg" alt="Spell - Developer friendly time tracking">
+			</a>	
+		</section>
+	</div>
+	<script type="text/javascript" src="js/main.min.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-97191628-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+/*
+
+   FONT WEIGHT
+   Docs: http://tachyons.io/docs/typography/font-weight/
+
+   Base
+     fw = font-weight
+
+   Modifiers:
+     1 = literal value 100
+     2 = literal value 200
+     3 = literal value 300
+     4 = literal value 400
+     5 = literal value 500
+     6 = literal value 600
+     7 = literal value 700
+     8 = literal value 800
+     9 = literal value 900
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+:root {
+  --fw1: 100;
+  --fw2: 200;
+  --fw3: 300;
+  --fw4: 400;
+  --fw5: 500;
+  --fw6: 600;
+  --fw7: 700;
+  --fw8: 800;
+  --fw9: 900;
+}
+
+.normal { font-weight: normal; }
+.b      { font-weight: bold; }
+.fw1    { font-weight: var(--fw1); }
+.fw2    { font-weight: var(--fw2); }
+.fw3    { font-weight: var(--fw3); }
+.fw4    { font-weight: var(--fw4); }
+.fw5    { font-weight: var(--fw5); }
+.fw6    { font-weight: var(--fw6); }
+.fw7    { font-weight: var(--fw7); }
+.fw8    { font-weight: var(--fw8); }
+.fw9    { font-weight: var(--fw9); }
+
+
+@media (--breakpoint-not-small) {
+  .normal-ns { font-weight: normal; }
+  .b-ns      { font-weight: bold; }
+  .fw1-ns    { font-weight: var(--fw1); }
+  .fw2-ns    { font-weight: var(--fw2); }
+  .fw3-ns    { font-weight: var(--fw3); }
+  .fw4-ns    { font-weight: var(--fw4); }
+  .fw5-ns    { font-weight: var(--fw5); }
+  .fw6-ns    { font-weight: var(--fw6); }
+  .fw7-ns    { font-weight: var(--fw7); }
+  .fw8-ns    { font-weight: var(--fw8); }
+  .fw9-ns    { font-weight: var(--fw9); }
+}
+
+@media (--breakpoint-medium) {
+  .normal-m { font-weight: normal; }
+  .b-m      { font-weight: bold; }
+  .fw1-m    { font-weight: var(--fw1); }
+  .fw2-m    { font-weight: var(--fw2); }
+  .fw3-m    { font-weight: var(--fw3); }
+  .fw4-m    { font-weight: var(--fw4); }
+  .fw5-m    { font-weight: var(--fw5); }
+  .fw6-m    { font-weight: var(--fw6); }
+  .fw7-m    { font-weight: var(--fw7); }
+  .fw8-m    { font-weight: var(--fw8); }
+  .fw9-m    { font-weight: var(--fw9); }
+}
+
+@media (--breakpoint-not-medium) {
+  .normal-nm { font-weight: normal; }
+  .b-nm      { font-weight: bold; }
+  .fw1-nm    { font-weight: var(--fw1); }
+  .fw2-nm    { font-weight: var(--fw2); }
+  .fw3-nm    { font-weight: var(--fw3); }
+  .fw4-nm    { font-weight: var(--fw4); }
+  .fw5-nm    { font-weight: var(--fw5); }
+  .fw6-nm    { font-weight: var(--fw6); }
+  .fw7-nm    { font-weight: var(--fw7); }
+  .fw8-nm    { font-weight: var(--fw8); }
+  .fw9-nm    { font-weight: var(--fw9); }
+}
+
+@media (--breakpoint-large) {
+  .normal-l { font-weight: normal; }
+  .b-l      { font-weight: bold; }
+  .fw1-l    { font-weight: var(--fw1); }
+  .fw2-l    { font-weight: var(--fw2); }
+  .fw3-l    { font-weight: var(--fw3); }
+  .fw4-l    { font-weight: var(--fw4); }
+  .fw5-l    { font-weight: var(--fw5); }
+  .fw6-l    { font-weight: var(--fw6); }
+  .fw7-l    { font-weight: var(--fw7); }
+  .fw8-l    { font-weight: var(--fw8); }
+  .fw9-l    { font-weight: var(--fw9); }
+}
+
+@media (--breakpoint-not-large) {
+  .normal-nl { font-weight: normal; }
+  .b-nl      { font-weight: bold; }
+  .fw1-nl    { font-weight: var(--fw1); }
+  .fw2-nl    { font-weight: var(--fw2); }
+  .fw3-nl    { font-weight: var(--fw3); }
+  .fw4-nl    { font-weight: var(--fw4); }
+  .fw5-nl    { font-weight: var(--fw5); }
+  .fw6-nl    { font-weight: var(--fw6); }
+  .fw7-nl    { font-weight: var(--fw7); }
+  .fw8-nl    { font-weight: var(--fw8); }
+  .fw9-nl    { font-weight: var(--fw9); }
+}
+
+@media (--breakpoint-extra-large) {
+  .normal-xl { font-weight: normal; }
+  .b-xl      { font-weight: bold; }
+  .fw1-xl    { font-weight: var(--fw1); }
+  .fw2-xl    { font-weight: var(--fw2); }
+  .fw3-xl    { font-weight: var(--fw3); }
+  .fw4-xl    { font-weight: var(--fw4); }
+  .fw5-xl    { font-weight: var(--fw5); }
+  .fw6-xl    { font-weight: var(--fw6); }
+  .fw7-xl    { font-weight: var(--fw7); }
+  .fw8-xl    { font-weight: var(--fw8); }
+  .fw9-xl    { font-weight: var(--fw9); }
+}
+
+@media (--breakpoint-not-extra-large) {
+  .normal-nxl { font-weight: normal; }
+  .b-nxl      { font-weight: bold; }
+  .fw1-nxl    { font-weight: var(--fw1); }
+  .fw2-nxl    { font-weight: var(--fw2); }
+  .fw3-nxl    { font-weight: var(--fw3); }
+  .fw4-nxl    { font-weight: var(--fw4); }
+  .fw5-nxl    { font-weight: var(--fw5); }
+  .fw6-nxl    { font-weight: var(--fw6); }
+  .fw7-nxl    { font-weight: var(--fw7); }
+  .fw8-nxl    { font-weight: var(--fw8); }
+  .fw9-nxl    { font-weight: var(--fw9); }
+}

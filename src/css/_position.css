@@ -1,0 +1,65 @@
+/*
+
+   POSITIONING
+   Docs: http://tachyons.io/docs/layout/position/
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.static { position: static; }
+.relative  { position: relative; }
+.absolute  { position: absolute; }
+.fixed  { position: fixed; }
+
+@media (--breakpoint-not-small) {
+  .static-ns { position: static; }
+  .relative-ns  { position: relative; }
+  .absolute-ns  { position: absolute; }
+  .fixed-ns  { position: fixed; }
+}
+
+@media (--breakpoint-medium) {
+  .static-m { position: static; }
+  .relative-m  { position: relative; }
+  .absolute-m  { position: absolute; }
+  .fixed-m  { position: fixed; }
+}
+
+@media (--breakpoint-not-medium) {
+  .static-nm { position: static; }
+  .relative-nm  { position: relative; }
+  .absolute-nm  { position: absolute; }
+  .fixed-nm  { position: fixed; }
+}
+
+@media (--breakpoint-large) {
+  .static-l { position: static; }
+  .relative-l  { position: relative; }
+  .absolute-l  { position: absolute; }
+  .fixed-l  { position: fixed; }
+}
+
+@media (--breakpoint-not-large) {
+  .static-nl { position: static; }
+  .relative-nl  { position: relative; }
+  .absolute-nl  { position: absolute; }
+  .fixed-nl  { position: fixed; }
+}
+
+@media (--breakpoint-extra-large) {
+  .static-xl { position: static; }
+  .relative-xl  { position: relative; }
+  .absolute-xl  { position: absolute; }
+  .fixed-xl  { position: fixed; }
+}
+
+@media (--breakpoint-not-extra-large) {
+  .static-nxl { position: static; }
+  .relative-nxl  { position: relative; }
+  .absolute-nxl  { position: absolute; }
+  .fixed-nxl  { position: fixed; }
+}

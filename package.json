@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "autoprefixer": "*",
+    "browser-sync": "*",
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "*",
+    "del": "*",
+    "gulp": "*",
+    "gulp-cache": "*",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "*",
+    "gulp-postcss": "*",
+    "gulp-rename": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-uncss": "*",
+    "gulp-util": "*",
+    "jump.js": "^1.0.2",
+    "postcss-css-variables": "^0.6.0",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-media-variables": "^2.0.0",
+    "postcss-nested": "^1.0.0"
+  },
+  "devDependencies": {
+    "postcss-merge-selectors": "0.0.6"
+  }
+}

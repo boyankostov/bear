@@ -1,0 +1,57 @@
+/*
+
+   WHITE SPACE
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+
+.ws-normal { white-space: normal; }
+.nowrap { white-space: nowrap; }
+.pre { white-space: pre; }
+
+@media (--breakpoint-not-small) {
+  .ws-normal-ns { white-space: normal; }
+  .nowrap-ns { white-space: nowrap; }
+  .pre-ns { white-space: pre; }
+}
+
+@media (--breakpoint-medium) {
+  .ws-normal-m { white-space: normal; }
+  .nowrap-m { white-space: nowrap; }
+  .pre-m { white-space: pre; }
+}
+
+@media (--breakpoint-not-medium) {
+  .ws-normal-nm { white-space: normal; }
+  .nowrap-nm { white-space: nowrap; }
+  .pre-nm { white-space: pre; }
+}
+
+@media (--breakpoint-large) {
+  .ws-normal-l { white-space: normal; }
+  .nowrap-l { white-space: nowrap; }
+  .pre-l { white-space: pre; }
+}
+
+@media (--breakpoint-not-large) {
+  .ws-normal-nl { white-space: normal; }
+  .nowrap-nl { white-space: nowrap; }
+  .pre-nl { white-space: pre; }
+}
+
+@media (--breakpoint-extra-large) {
+  .ws-normal-xl { white-space: normal; }
+  .nowrap-xl { white-space: nowrap; }
+  .pre-xl { white-space: pre; }
+}
+
+@media (--breakpoint-not-extra-large) {
+  .ws-normal-nxl { white-space: normal; }
+  .nowrap-nxl { white-space: nowrap; }
+  .pre-nxl { white-space: pre; }
+}

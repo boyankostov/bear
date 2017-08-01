@@ -1,0 +1,175 @@
+/*
+
+   TYPE SCALE
+   Docs: http://tachyons.io/docs/typography/scale/
+
+   Base:
+    f = font-size
+
+   Modifiers
+     1 = 1st step in size scale
+     2 = 2nd step in size scale
+     3 = 3rd step in size scale
+     4 = 4th step in size scale
+     5 = 5th step in size scale
+     6 = 6th step in size scale
+     7 = 7th step in size scale
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+*/
+
+/*
+ * For Hero/Marketing Titles
+ *
+ * These generally are too large for mobile
+ * so be careful using them on smaller screens.
+ * */
+
+:root {
+  --f0: 5rem; /* 80 */
+  --f1: 4rem; /* 64 */
+  --f2: 2.75rem; /* 36 */
+  --f3: 1.5rem; /* 24 */
+  --f4: 1.125rem; /* 20 */
+  --f5: 1rem; /* 16 */
+  --f6: 0.875rem; /* 14 */
+  --f7: 0.8125rem; /* 13 */
+  --f8: 0.75rem; /* 12 */
+}
+
+.f-6,
+.f-headline {
+  font-size: 6rem;
+}
+.f-5,
+.f-subheadline {
+  font-size: 5rem;
+}
+
+
+/* Type Scale */
+
+.f0 { font-size: var(--f0); }
+.f1 { font-size: var(--f1); }
+.f2 { font-size: var(--f2); }
+.f3 { font-size: var(--f3); }
+.f4 { font-size: var(--f4); }
+.f5 { font-size: var(--f5); }
+.f6 { font-size: var(--f6); }
+.f7 { font-size: var(--f7); } /* Small and hard to read for many people so use with extreme caution */
+.f8 { font-size: var(--f8); }
+
+@media (--breakpoint-not-small){
+  .f-6-ns,
+  .f-headline-ns { font-size: var(--f6); }
+  .f-5-ns,
+  .f-subheadline-ns { font-size: var(--f5); }
+  .f0-ns { font-size: var(--f0)}
+  .f1-ns { font-size: var(--f1); }
+  .f2-ns { font-size: var(--f2); }
+  .f3-ns { font-size: var(--f3); }
+  .f4-ns { font-size: var(--f4); }
+  .f5-ns { font-size: var(--f5); }
+  .f6-ns { font-size: var(--f6); }
+  .f7-ns { font-size: var(--f7); }
+  .f8-ns { font-size: var(--f8); }
+}
+
+@media (--breakpoint-medium) {
+  .f-6-m,
+  .f-headline-m { font-size: var(--f6); }
+  .f-5-m,
+  .f-subheadline-m { font-size: var(--f5); }
+  .f0-m { font-size: var(--f0); }
+  .f1-m { font-size: var(--f1); }
+  .f2-m { font-size: var(--f2); }
+  .f3-m { font-size: var(--f3); }
+  .f4-m { font-size: var(--f4); }
+  .f5-m { font-size: var(--f5); }
+  .f6-m { font-size: var(--f6); }
+  .f7-m { font-size: var(--f7); }
+  .f8-m { font-size: var(--f8); }
+}
+
+@media (--breakpoint-not-medium) {
+  .f-6-nm,
+  .f-headline-nm { font-size: var(--f6); }
+  .f-5-nm,
+  .f-subheadline-nm { font-size: var(--f5); }
+  .f0-nm { font-size: var(--f0); }
+  .f1-nm { font-size: var(--f1); }
+  .f2-nm { font-size: var(--f2); }
+  .f3-nm { font-size: var(--f3); }
+  .f4-nm { font-size: var(--f4); }
+  .f5-nm { font-size: var(--f5); }
+  .f6-nm { font-size: var(--f6); }
+  .f7-nm { font-size: var(--f7); }
+  .f8-nm { font-size: var(--f8); }
+}
+
+@media (--breakpoint-large) {
+  .f-6-l,
+  .f-headline-l { font-size: var(--f6); }
+  .f-5-l,
+  .f-subheadline-l { font-size: var(--f5); }
+  .f0-l { font-size: var(--f0); }
+  .f1-l { font-size: var(--f1); }
+  .f2-l { font-size: var(--f2); }
+  .f3-l { font-size: var(--f3); }
+  .f4-l { font-size: var(--f4); }
+  .f5-l { font-size: var(--f5); }
+  .f6-l { font-size: var(--f6); }
+  .f7-l { font-size: var(--f7); }
+  .f8-l { font-size: var(--f8); }
+}
+
+@media (--breakpoint-not-large) {
+  .f-6-nl,
+  .f-headline-nl { font-size: var(--f6); }
+  .f-5-nl,
+  .f-subheadline-nl { font-size: var(--f5); }
+  .f0-nl { font-size: var(--f0); }
+  .f1-nl { font-size: var(--f1); }
+  .f2-nl { font-size: var(--f2); }
+  .f3-nl { font-size: var(--f3); }
+  .f4-nl { font-size: var(--f4); }
+  .f5-nl { font-size: var(--f5); }
+  .f6-nl { font-size: var(--f6); }
+  .f7-nl { font-size: var(--f7); }
+  .f8-nl { font-size: var(--f8); }
+}
+
+@media (--breakpoint-extra-large) {
+  .f-6-xl,
+  .f-headline-xl { font-size: var(--f6); }
+  .f-5-xl,
+  .f-subheadline-xl { font-size: var(--f5); }
+  .f0-xl { font-size: var(--f0); }
+  .f1-xl { font-size: var(--f1); }
+  .f2-xl { font-size: var(--f2); }
+  .f3-xl { font-size: var(--f3); }
+  .f4-xl { font-size: var(--f4); }
+  .f5-xl { font-size: var(--f5); }
+  .f6-xl { font-size: var(--f6); }
+  .f7-xl { font-size: var(--f7); }
+  .f8-xl { font-size: var(--f8); }
+}
+
+@media (--breakpoint-not-extra-large) {
+  .f-6-nxl,
+  .f-headline-nxl { font-size: var(--f6); }
+  .f-5-nxl,
+  .f-subheadline-nxl { font-size: var(--f5); }
+  .f0-nxl { font-size: var(--f0); }
+  .f1-nxl { font-size: var(--f1); }
+  .f2-nxl { font-size: var(--f2); }
+  .f3-nxl { font-size: var(--f3); }
+  .f4-nxl { font-size: var(--f4); }
+  .f5-nxl { font-size: var(--f5); }
+  .f6-nxl { font-size: var(--f6); }
+  .f7-nxl { font-size: var(--f7); }
+  .f8-nxl { font-size: var(--f8); }
+}

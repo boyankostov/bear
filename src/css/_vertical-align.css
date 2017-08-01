@@ -1,0 +1,64 @@
+/*
+
+   VERTICAL ALIGN
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+.v-base     { vertical-align: baseline; }
+.v-mid      { vertical-align: middle; }
+.v-top      { vertical-align: top; }
+.v-btm      { vertical-align: bottom; }
+
+@media (--breakpoint-not-small) {
+  .v-base-ns     { vertical-align: baseline; }
+  .v-mid-ns      { vertical-align: middle; }
+  .v-top-ns      { vertical-align: top; }
+  .v-btm-ns      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-medium) {
+  .v-base-m     { vertical-align: baseline; }
+  .v-mid-m      { vertical-align: middle; }
+  .v-top-m      { vertical-align: top; }
+  .v-btm-m      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-not-medium) {
+  .v-base-nm     { vertical-align: baseline; }
+  .v-mid-nm      { vertical-align: middle; }
+  .v-top-nm      { vertical-align: top; }
+  .v-btm-nm      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-large) {
+  .v-base-l     { vertical-align: baseline; }
+  .v-mid-l      { vertical-align: middle; }
+  .v-top-l      { vertical-align: top; }
+  .v-btm-l      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-not-large) {
+  .v-base-nl     { vertical-align: baseline; }
+  .v-mid-nl      { vertical-align: middle; }
+  .v-top-nl      { vertical-align: top; }
+  .v-btm-nl      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-extra-large) {
+  .v-base-xl     { vertical-align: baseline; }
+  .v-mid-xl      { vertical-align: middle; }
+  .v-top-xl      { vertical-align: top; }
+  .v-btm-xl      { vertical-align: bottom; }
+}
+
+@media (--breakpoint-not-extra-large) {
+  .v-base-nxl     { vertical-align: baseline; }
+  .v-mid-nxl      { vertical-align: middle; }
+  .v-top-nxl      { vertical-align: top; }
+  .v-btm-nxl      { vertical-align: bottom; }
+}

@@ -1,0 +1,162 @@
+/*
+
+   MAX WIDTHS
+   Docs: http://tachyons.io/docs/layout/max-widths/
+
+   Base:
+     mw = max-width
+
+   Modifiers
+     1 = 1st step in width scale
+     2 = 2nd step in width scale
+     3 = 3rd step in width scale
+     4 = 4th step in width scale
+     5 = 5th step in width scale
+     6 = 6st step in width scale
+     7 = 7nd step in width scale
+     8 = 8rd step in width scale
+     9 = 9th step in width scale
+
+     -100 = literal value 100%
+
+     -none  = string value none
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+/* Max Width Percentages */
+
+.mw-100  { max-width: 100%; }
+
+/* Max Width Scale */
+
+.mw1  {  max-width: 1rem; }
+.mw2  {  max-width: 2rem; }
+.mw3  {  max-width: 4rem; }
+.mw4  {  max-width: 8rem; }
+.mw5  {  max-width: 16rem; }
+.mw6  {  max-width: 32rem; }
+.mw7  {  max-width: 48rem; }
+.mw8  {  max-width: 64rem; }
+.mw9  {  max-width: 96rem; }
+
+/* Max Width String Properties */
+
+.mw-none { max-width: none; }
+
+@media (--breakpoint-not-small) {
+  .mw-100-ns  { max-width: 100%; }
+
+  .mw1-ns  {  max-width: 1rem; }
+  .mw2-ns  {  max-width: 2rem; }
+  .mw3-ns  {  max-width: 4rem; }
+  .mw4-ns  {  max-width: 8rem; }
+  .mw5-ns  {  max-width: 16rem; }
+  .mw6-ns  {  max-width: 32rem; }
+  .mw7-ns  {  max-width: 48rem; }
+  .mw8-ns  {  max-width: 64rem; }
+  .mw9-ns  {  max-width: 96rem; }
+
+  .mw-none-ns { max-width: none; }
+}
+
+@media (--breakpoint-medium) {
+  .mw-100-m  { max-width: 100%; }
+
+  .mw1-m  {  max-width: 1rem; }
+  .mw2-m  {  max-width: 2rem; }
+  .mw3-m  {  max-width: 4rem; }
+  .mw4-m  {  max-width: 8rem; }
+  .mw5-m  {  max-width: 16rem; }
+  .mw6-m  {  max-width: 32rem; }
+  .mw7-m  {  max-width: 48rem; }
+  .mw8-m  {  max-width: 64rem; }
+  .mw9-m  {  max-width: 96rem; }
+
+  .mw-none-m { max-width: none; }
+}
+
+@media (--breakpoint-not-medium) {
+  .mw-100-nm  { max-width: 100%; }
+
+  .mw1-nm  {  max-width: 1rem; }
+  .mw2-nm  {  max-width: 2rem; }
+  .mw3-nm  {  max-width: 4rem; }
+  .mw4-nm  {  max-width: 8rem; }
+  .mw5-nm  {  max-width: 16rem; }
+  .mw6-nm  {  max-width: 32rem; }
+  .mw7-nm  {  max-width: 48rem; }
+  .mw8-nm  {  max-width: 64rem; }
+  .mw9-nm  {  max-width: 96rem; }
+
+  .mw-none-nm { max-width: none; }
+}
+
+@media (--breakpoint-large) {
+  .mw-100-l  { max-width: 100%; }
+
+  .mw1-l  {  max-width: 1rem; }
+  .mw2-l  {  max-width: 2rem; }
+  .mw3-l  {  max-width: 4rem; }
+  .mw4-l  {  max-width: 8rem; }
+  .mw5-l  {  max-width: 16rem; }
+  .mw6-l  {  max-width: 32rem; }
+  .mw7-l  {  max-width: 48rem; }
+  .mw8-l  {  max-width: 64rem; }
+  .mw9-l  {  max-width: 96rem; }
+
+  .mw-none-l { max-width: none; }
+}
+
+@media (--breakpoint-not-large) {
+  .mw-100-nl  { max-width: 100%; }
+
+  .mw1-nl  {  max-width: 1rem; }
+  .mw2-nl  {  max-width: 2rem; }
+  .mw3-nl  {  max-width: 4rem; }
+  .mw4-nl  {  max-width: 8rem; }
+  .mw5-nl  {  max-width: 16rem; }
+  .mw6-nl  {  max-width: 32rem; }
+  .mw7-nl  {  max-width: 48rem; }
+  .mw8-nl  {  max-width: 64rem; }
+  .mw9-nl  {  max-width: 96rem; }
+
+  .mw-none-nl { max-width: none; }
+}
+
+@media (--breakpoint-extra-large) {
+  .mw-100-xl  { max-width: 100%; }
+
+  .mw1-xl  {  max-width: 1rem; }
+  .mw2-xl  {  max-width: 2rem; }
+  .mw3-xl  {  max-width: 4rem; }
+  .mw4-xl  {  max-width: 8rem; }
+  .mw5-xl  {  max-width: 16rem; }
+  .mw6-xl  {  max-width: 32rem; }
+  .mw7-xl  {  max-width: 48rem; }
+  .mw8-xl  {  max-width: 64rem; }
+  .mw9-xl  {  max-width: 96rem; }
+
+  .mw-none-xl { max-width: none; }
+}
+
+@media (--breakpoint-not-extra-large) {
+  .mw-100-nxl  { max-width: 100%; }
+
+  .mw1-nxl  {  max-width: 1rem; }
+  .mw2-nxl  {  max-width: 2rem; }
+  .mw3-nxl  {  max-width: 4rem; }
+  .mw4-nxl  {  max-width: 8rem; }
+  .mw5-nxl  {  max-width: 16rem; }
+  .mw6-nxl  {  max-width: 32rem; }
+  .mw7-nxl  {  max-width: 48rem; }
+  .mw8-nxl  {  max-width: 64rem; }
+  .mw9-nxl  {  max-width: 96rem; }
+
+  .mw-none-nxl { max-width: none; }
+}

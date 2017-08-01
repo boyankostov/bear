@@ -1,0 +1,69 @@
+/*
+
+   UTILITIES
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+/* Equivalent to .overflow-y-scroll */
+.overflow-container {
+  overflow-y: scroll;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (--breakpoint-not-small){
+  .center-ns {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (--breakpoint-medium){
+  .center-m {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (--breakpoint-not-medium){
+  .center-nm {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (--breakpoint-large){
+  .center-l {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (--breakpoint-not-large){
+  .center-nl {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (--breakpoint-extra-large){
+  .center-xl {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (--breakpoint-not-extra-large){
+  .center-nxl {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

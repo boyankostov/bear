@@ -1,0 +1,234 @@
+/*
+
+    BACKGROUND POSITION
+
+    Base:
+    bg = background
+
+    Modifiers:
+    -center = center center
+    -top = top center
+    -right = center right
+    -bottom = bottom center
+    -left = center left
+
+    Media Query Extensions:
+      -ns = not-small
+      -m  = medium
+      -l  = large
+
+ */
+
+.bg-center { 
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+.bg-top {    
+  background-repeat: no-repeat; 
+  background-position: top center;    
+}
+
+.bg-right {  
+  background-repeat: no-repeat; 
+  background-position: center right;  
+}
+
+.bg-bottom { 
+  background-repeat: no-repeat; 
+  background-position: bottom center; 
+}
+
+.bg-left {   
+  background-repeat: no-repeat; 
+  background-position: center left;   
+}
+
+@media (--breakpoint-not-small) {
+  .bg-center-ns { 
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+
+  .bg-top-ns {    
+    background-repeat: no-repeat; 
+    background-position: top center;    
+  }
+
+  .bg-right-ns {  
+    background-repeat: no-repeat; 
+    background-position: center right;  
+  }
+
+  .bg-bottom-ns { 
+    background-repeat: no-repeat; 
+    background-position: bottom center; 
+  }
+
+  .bg-left-ns {   
+    background-repeat: no-repeat; 
+    background-position: center left;   
+  }
+}
+
+@media (--breakpoint-medium) {
+  .bg-center-m { 
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+
+  .bg-top-m {    
+    background-repeat: no-repeat; 
+    background-position: top center;    
+  }
+
+  .bg-right-m {  
+    background-repeat: no-repeat; 
+    background-position: center right;  
+  }
+
+  .bg-bottom-m { 
+    background-repeat: no-repeat; 
+    background-position: bottom center; 
+  }
+
+  .bg-left-m {   
+    background-repeat: no-repeat; 
+    background-position: center left;   
+  }
+}
+
+@media (--breakpoint-not-medium) {
+  .bg-center-nm { 
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+
+  .bg-top-nm {    
+    background-repeat: no-repeat; 
+    background-position: top center;    
+  }
+
+  .bg-right-nm {  
+    background-repeat: no-repeat; 
+    background-position: center right;  
+  }
+
+  .bg-bottom-nm { 
+    background-repeat: no-repeat; 
+    background-position: bottom center; 
+  }
+
+  .bg-left-nm {   
+    background-repeat: no-repeat; 
+    background-position: center left;   
+  }
+}
+
+@media (--breakpoint-large) {
+  .bg-center-l { 
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+
+  .bg-top-l {    
+    background-repeat: no-repeat; 
+    background-position: top center;    
+  }
+
+  .bg-right-l {  
+    background-repeat: no-repeat; 
+    background-position: center right;  
+  }
+
+  .bg-bottom-l { 
+    background-repeat: no-repeat; 
+    background-position: bottom center; 
+  }
+
+  .bg-left-l {   
+    background-repeat: no-repeat; 
+    background-position: center left;   
+  }
+}
+
+@media (--breakpoint-not-large) {
+  .bg-center-nl { 
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+
+  .bg-top-nl {    
+    background-repeat: no-repeat; 
+    background-position: top center;    
+  }
+
+  .bg-right-nl {  
+    background-repeat: no-repeat; 
+    background-position: center right;  
+  }
+
+  .bg-bottom-nl { 
+    background-repeat: no-repeat; 
+    background-position: bottom center; 
+  }
+
+  .bg-left-nl {   
+    background-repeat: no-repeat; 
+    background-position: center left;   
+  }
+}
+
+@media (--breakpoint-extra-large) {
+  .bg-center-xl { 
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+
+  .bg-top-xl {    
+    background-repeat: no-repeat; 
+    background-position: top center;    
+  }
+
+  .bg-right-xl {  
+    background-repeat: no-repeat; 
+    background-position: center right;  
+  }
+
+  .bg-bottom-xl { 
+    background-repeat: no-repeat; 
+    background-position: bottom center; 
+  }
+
+  .bg-left-xl {   
+    background-repeat: no-repeat; 
+    background-position: center left;   
+  }
+}
+
+@media (--breakpoint-not-extra-large) {
+  .bg-center-nxl { 
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+
+  .bg-top-nxl {    
+    background-repeat: no-repeat; 
+    background-position: top center;    
+  }
+
+  .bg-right-nxl {  
+    background-repeat: no-repeat; 
+    background-position: center right;  
+  }
+
+  .bg-bottom-nxl { 
+    background-repeat: no-repeat; 
+    background-position: bottom center; 
+  }
+
+  .bg-left-nxl {   
+    background-repeat: no-repeat; 
+    background-position: center left;   
+  }
+}

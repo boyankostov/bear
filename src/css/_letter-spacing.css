@@ -1,0 +1,89 @@
+/*
+
+   LETTER SPACING
+   Docs: http://tachyons.io/docs/typography/tracking/
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
+*/
+
+:root {
+  --ls--1: -0.05em;
+  --ls-1: .1em;
+  --ls-2: .15em;
+  --ls-3: .25em;
+  --ls-4: .85em;
+}
+
+.tracked-0 {letter-spacing: 0}
+.tracked       { letter-spacing:  var(--ls-1); }
+.tracked-tight { letter-spacing:  var(--ls--1); }
+.tracked-wide  { letter-spacing:  var(--ls-2); }
+.tracked-mega  { letter-spacing:  var(--ls-3); }
+.tracked-hyper  { letter-spacing:  var(--ls-4); }
+
+@media (--breakpoint-not-small) {
+  .tracked-0-ns {letter-spacing: 0}
+  .tracked-ns       { letter-spacing:  .1em; }
+  .tracked-tight-ns { letter-spacing: -.05em; }
+  .tracked-wide-ns  { letter-spacing:  .15em; }
+  .tracked-mega-ns  { letter-spacing:  .25em; }
+  .tracked-hyper-ns { letter-spacing:  .85em; }
+}
+
+@media (--breakpoint-medium) {
+  .tracked-0-m {letter-spacing: 0}
+  .tracked-m       { letter-spacing:  .1em; }
+  .tracked-tight-m { letter-spacing: -.05em; }
+  .tracked-wide-m  { letter-spacing:  .15em; }
+  .tracked-mega-m  { letter-spacing:  .25em; }
+  .tracked-hyper-m { letter-spacing:  .85em; }
+}
+
+@media (--breakpoint-not-medium) {
+  .tracked-0-nm {letter-spacing: 0}
+  .tracked-nm       { letter-spacing:  .1em; }
+  .tracked-tight-nm { letter-spacing: -.05em; }
+  .tracked-wide-nm  { letter-spacing:  .15em; }
+  .tracked-mega-nm  { letter-spacing:  .25em; }
+  .tracked-hyper-nm { letter-spacing:  .85em; }
+}
+
+@media (--breakpoint-large) {
+  .tracked-0-l {letter-spacing: 0}
+  .tracked-l       { letter-spacing:  .1em; }
+  .tracked-tight-l { letter-spacing: -.05em; }
+  .tracked-wide-l  { letter-spacing:  .15em; }
+  .tracked-mega-l  { letter-spacing:  .25em; }
+  .tracked-hyper-l { letter-spacing:  .85em; }
+}
+
+@media (--breakpoint-not-large) {
+  .tracked-0-nl {letter-spacing: 0}
+  .tracked-nl       { letter-spacing:  .1em; }
+  .tracked-tight-nl { letter-spacing: -.05em; }
+  .tracked-wide-nl  { letter-spacing:  .15em; }
+  .tracked-mega-nl  { letter-spacing:  .25em; }
+  .tracked-hyper-nl { letter-spacing:  .85em; }
+}
+
+@media (--breakpoint-extra-large) {
+  .tracked-0-xl {letter-spacing: 0}
+  .tracked-xl       { letter-spacing:  .1em; }
+  .tracked-tight-xl { letter-spacing: -.05em; }
+  .tracked-wide-xl  { letter-spacing:  .15em; }
+  .tracked-mega-xl  { letter-spacing:  .25em; }
+  .tracked-hyper-xl { letter-spacing:  .85em; }
+}
+
+@media (--breakpoint-not-extra-large) {
+  .tracked-0-nxl {letter-spacing: 0}
+  .tracked-nxl       { letter-spacing:  .1em; }
+  .tracked-tight-nxl { letter-spacing: -.05em; }
+  .tracked-wide-nxl  { letter-spacing:  .15em; }
+  .tracked-mega-nxl  { letter-spacing:  .25em; }
+  .tracked-hyper-nxl { letter-spacing:  .85em; }
+}
