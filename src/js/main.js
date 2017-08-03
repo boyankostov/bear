@@ -2,7 +2,12 @@ const bear = document.querySelector('.title'),
 	  header = document.querySelector('.l-header');
 
 var lastScrollTop = 0;
-
+window.sr = ScrollReveal();
+sr.reveal('.is-revealed', {
+	duration: 1000,
+	delay: 0,
+	easing: 'cubic-bezier(0.5, 0.1, 0.1, 1)'
+});
 
 
 // Test this chunk of code

@@ -3,7 +3,6 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
-    svgSprite = require('gulp-svg-sprite'),
     sourcemaps = require('gulp-sourcemaps'),
     rename = require('gulp-rename'),
     uncss = require('gulp-uncss'),
@@ -59,7 +58,7 @@ gulp.task('cssnano', ['uncss'], function() {
 
 // Concatenate & Minify JS
 gulp.task('js', function() {
-  return gulp.src(['src/js/plugins/*.js', 'node_modules/jump.js/dist/jump.js', 'node_modules/jump.js/jump.module.js', 'src/js/*.js'])
+  return gulp.src(['src/js/plugins/*.js', 'node_modules/jump.js/dist/jump.js', 'node_modules/scrollreveal/dist/scrollreveal.js', 'node_modules/jump.js/jump.module.js', 'src/js/*.js'])
     .pipe(concat('main.js'))
     .on('error', swallowError)
     .pipe(gulp.dest('dist/js'))

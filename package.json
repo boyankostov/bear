@@ -25,6 +25,8 @@
     "postcss-nested": "^1.0.0"
   },
   "devDependencies": {
-    "postcss-merge-selectors": "0.0.6"
+    "postcss-import": "^10.0.0",
+    "postcss-merge-selectors": "0.0.6",
+    "scrollreveal": "^3.3.6"
   }
 }
